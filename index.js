@@ -13,6 +13,11 @@ app.get('/koelnVR', function (req, res) {
    res.sendFile(__dirname + '/html/koeln.html');
 })
 
+app.get('/VRexample', function (req, res) {
+   
+   res.sendFile(__dirname + '/html/vr_example.html');
+})
+
 var server = app.listen(port, function () {
    var host = server.address().address
    var port = server.address().port
