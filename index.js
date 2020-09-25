@@ -18,9 +18,9 @@ app.get('/VRexample', function (req, res) {
    res.sendFile(__dirname + '/html/vr_example.html');
 })
 
-app.get('/VRexample', function (req, res) {
+app.get('/mountain', function (req, res) {
    
-   res.sendFile(__dirname + '/html/test.html');
+   res.sendFile(__dirname + '/html/mountain.html');
 })
 
 var server = app.listen(port, function () {
