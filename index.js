@@ -18,6 +18,11 @@ app.get('/VRexample', function (req, res) {
    res.sendFile(__dirname + '/html/vr_example.html');
 })
 
+app.get('/VRexample', function (req, res) {
+   
+   res.sendFile(__dirname + '/html/test.html');
+})
+
 var server = app.listen(port, function () {
    var host = server.address().address
    var port = server.address().port
