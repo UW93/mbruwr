@@ -5,34 +5,9 @@ const port = process.env.PORT || 1993
 
 app.get('/', function (req, res) {
    
-   res.sendFile(__dirname + '/html/koeln.html');
+   res.sendFile(__dirname + '/index.html');
 })
 
-app.get('/koelnVR', function (req, res) {
-   
-   res.sendFile(__dirname + '/html/koeln.html');
-})
-
-app.get('/VRexample', function (req, res) {
-   
-   res.sendFile(__dirname + '/html/vr_example.html');
-})
-
-app.get('/mountain', function (req, res) {
-   
-   res.sendFile(__dirname + '/html/mountain.html');
-})
-
-
-app.get('/test2', function (req, res) {
-   
-   res.sendFile(__dirname + '/html/vrtest2.html');
-})
-
-app.get('/cardboard', function (req, res) {
-   
-   res.sendFile(__dirname + '/html/cardboard.html');
-})
 
 var server = app.listen(port, function () {
    var host = server.address().address
