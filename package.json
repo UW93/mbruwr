@@ -1,16 +1,21 @@
 {
-  "name": "herokoserver",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vrbutton",
+  "version": "0.0.5",
+  "description": "VR Button",
+  "main": "index.html",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "uwr",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "videojs-vr": "^1.7.1"
+    "@polymer/lit-element": "^0.6.2",
+    "@material/mwc-button": "^0.3.1",
+    "@polymer/paper-dialog": "^3.0.1",
+	"express": "^4.17.1",
+    "@webcomponents/webcomponentsjs": "^2.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
